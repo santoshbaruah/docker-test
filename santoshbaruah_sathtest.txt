@@ -1,0 +1,6 @@
+
+ exit
+hub link: 
+docker push santoshbaruah/santoshbaruah_sathtest 
+
+public url for test :13.233.127.36
