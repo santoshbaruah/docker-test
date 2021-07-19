@@ -22,5 +22,6 @@ l.	and then use aws public ip to test the site which at the time of exam provide
  santoshbaruah_sathtest
 5.	In the next step I push that image to my Docker public repo and my pulic GitHub account with instruction.
 6.	The image name is  santoshbaruah/santoshbaruah_sathtest 
-7.	Now anyone can able to pull it from the image fom the Docker hub with santoshbaruah/santoshbaruah_sathtest  this name and able to create the container from it . 
+7.	Now anyone can able to pull it from the image fom the Docker hub with santoshbaruah/santoshbaruah_sathtest  
+this name and able to create the container from it . 
 
