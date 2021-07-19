@@ -1,5 +1,26 @@
+Instruction are as follows:
+1.	public url for test :13.233.127.36 
+(May be its not accessible, because I Terminate the Ec2 Instance after Test is over).
 
-hub link: 
-docker push santoshbaruah/santoshbaruah_sathtest 
+2.	I create a Docker Container and name it as santoshbaruah/santoshbaruah_sathtest  for the test .
+3.	For the test I followed this steps 
+a.	Launch an Amazon Ec2 instance free tire 
+b.	Install Docker on it 
+c.	Start the Docker container 
+d.	Run the following set of command 
+e.	Docker run –td -–name santoshbaruah –p 80:80 ubuntu 
+f.	Docker ps
+g.	Docker port santoshbaruah
+h.	Docker exec –it santoshbaruah  /bin.bash
+(install apache server and do the configuration)
+i.	apt-get install apache2 –y
+j.	cd var/www/html
+k.	echo “hello world”  >index.html
+l.	and then use aws public ip to test the site which at the time of exam provided as 13.233.127.36
 
-public url for test :13.233.127.36
+4.	As next step I create an image from the container and name it as >
+ santoshbaruah_sathtest
+5.	In the next step I push that image to my Docker public repo and my pulic GitHub account with instruction.
+6.	The image name is  santoshbaruah/santoshbaruah_sathtest 
+7.	Now anyone can able to pull it from the image fom the Docker hub with santoshbaruah/santoshbaruah_sathtest  this name and able to create the container from it . 
+
